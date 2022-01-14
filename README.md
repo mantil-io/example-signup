@@ -19,7 +19,7 @@ To deploy this application you will need an [AWS account](https://aws.amazon.com
 
 To locally create a new project from this example run:
 ```
-mantil new app --from https://github.com/mantil-io/example-signup
+mantil new app --from signup
 cd app
 ```
 
