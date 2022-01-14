@@ -1,4 +1,4 @@
-module github.com/mantil-io/go-mantil-template
+module github.com/mantil-io/example-signup
 
 go 1.16
 
