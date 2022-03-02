@@ -1,6 +1,7 @@
 ## About
+[Mantil](https://www.mantil.com) is a modern open-source framework for writing serverless apps in Go. It allows you to quickly create and deploy applications that use AWS Lambda over a command line interface. 
 
-This example shows how to create a simple signup workflow using Mantil. It consists of two steps:
+This example shows how to create a simple sign-up workflow using Mantil. It consists of two steps:
 - **Registration** - the user registers using a valid email address and receives an activation code
 - **Activation** - the user uses the activation code to confirm the registration. In return, they receive a JWT token which they can then use to authenticate.
 
@@ -17,11 +18,12 @@ To deploy this application you will need an [AWS account](https://aws.amazon.com
 
 ## Installation
 
-To locally create a new project from this example run:
+To locally create a new Mantil project, run:
 ```
 mantil new app --from signup
 cd app
 ```
+It will download [this Go code](https://github.com/mantil-io/example-signup/tree/master/api/signup) to the app/api/signup/ directory on your machine.
 
 ## Configuration
 
@@ -58,7 +60,7 @@ You will now have access to three methods:
 - `activate` - expects a valid activation code. Creates an activation record in dynamodb and returns a valid JWT token containing the activation ID and code.
 - `verify` - expects a JWT token returned by `activate`. Checks if the JWT token is valid and returns the decoded token if successful.
 
-An example signup flow might look like this:
+An example sign-up flow might look like this:
 
 First, we invoke the `register` method:
 ```
