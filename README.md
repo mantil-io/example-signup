@@ -23,7 +23,7 @@ To locally create a new Mantil project, run:
 mantil new app --from signup
 cd app
 ```
-It will download [this Go code](https://github.com/mantil-io/example-signup/tree/master/api/signup) to the `app/api/signup/` directory on your machine.
+It will download [this code](https://github.com/mantil-io/example-signup/tree/master/api/signup) to the `app/api/signup/` directory on your machine, where you can explore and adjust it if necessary%.
 
 ## Configuration
 
