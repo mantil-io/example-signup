@@ -7,12 +7,12 @@ This example shows how to create a simple sign-up workflow using Mantil. It cons
 
 ## Prerequisites
 
-This example is created with Mantil. To download [Mantil CLI](https://github.com/mantil-io/mantil#installation) on Mac or Linux use Homebrew 
+This example is created with Mantil. To download [Mantil CLI](https://docs.mantil.com/cli_install) on Mac or Linux use Homebrew 
 ```
 brew tap mantil-io/mantil
 brew install mantil
 ```
-or check [direct download links](https://github.com/mantil-io/mantil#installation).
+or check [direct download links](https://docs.mantil.com/cli_install#direct-download-linux-windows-and-mac).
 
 To deploy this application you will need an [AWS account](https://aws.amazon.com/premiumsupport/knowledge-center/create-and-activate-aws-account/).
 
@@ -45,7 +45,7 @@ project:
 
 ## Deploying the application
 
-Note: If this is the first time you are using Mantil you will need to install Mantil Node on your AWS account. For detailed instructions please follow the [one-step setup](https://github.com/mantil-io/mantil/blob/master/docs/getting_started.md#setup)
+Note: If this is the first time you are using Mantil you will need to install Mantil Node on your AWS account. For detailed instructions please follow the [setup guide](https://docs.mantil.com/aws_detailed_setup/aws_credentials)
 ```
 mantil aws install
 ```
